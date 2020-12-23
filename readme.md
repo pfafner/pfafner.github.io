@@ -7,10 +7,14 @@
 
 # Información básica
 
-------------- | ------------- | ------------- | -------------
-Content Cell  | Content Cell  | Content Cell  | Content Cell 
-Content Cell  | Content Cell  | Content Cell  | Content Cell 
-------------- | ------------- | ------------- | -------------
+  Curso         | Header        | Header        | Header 
+  ------------- | ------------- | ------------- | -------------
+  MM2013        | Content Cell  | Content Cell  | Content Cell 
+  ------------- | ------------- | ------------- | -------------
+  Curso         | Content Cell  | Content Cell  | Content Cell 
+  ------------- | ------------- | ------------- | -------------
+  Content Cell  | Content Cell  | Content Cell  | Content Cell 
+  ------------- | ------------- | ------------- | -------------
 
 ## Office Hours
 
@@ -55,3 +59,23 @@ La última parte del curso introduce la noción de variedad diferenciable, así 
 
 
 [[include ref=SamplePage]]
+
+
+# My Table of content
+- [Section 1](#id-section1)
+- [Section 2](#id-section2)
+
+<div id='id-section1'/>
+## Section 1
+<div id='id-section2'/>
+## Section 2
+
+
+# Table of Contents
+1. [Example](#example)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+
+## Example [](#){name=example}
+## Example2 [](#){name=example2}
+## [Third Example](#){name=third-example}
