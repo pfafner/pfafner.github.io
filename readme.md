@@ -1,10 +1,11 @@
-# Differential Geometry, 2021
+# Geometría Diferencial 2021
 
-## Welcome to my website!
-## This is website on construction. Right now, it is used for example and testing purposes only.
+## This is website under construction. Right now, it is used for example and testing purposes only.
 
 # Table of Contents
 - [Información Básica](#id-info)
+- [News](#id-news)
+- [Material del curso](#id-material)
 - [Descripción](#id-descripcion)
 - [Contenido](#id-contenido)
 - [Bibliografía](#id-ref)
@@ -29,6 +30,26 @@
 ## Office Hours
 
 * Viernes de 17:00 a 18:00 hrs, o por solicitud del estudiante, o pueden enviar sus dudas por correo electrónico.
+
+
+<div id='id-news'/>
+# News
+
+<div id='id-material'/>
+# Material del curso
+
+## Apuntes
+
+[Aula 01](https://github.com/pfafner/pfafner.github.io/aulas/ad01.pdf)
+[Aula 02](https://github.com/pfafner/pfafner.github.io/aulas/ad02.pdf)
+
+## Listas
+
+[Lista 01](https://github.com/pfafner/pfafner.github.io/listas/t1ad2020.pdf)
+
+## Proyectos
+
+## Quizes
 
 
 <div id='id-descripcion'/>
