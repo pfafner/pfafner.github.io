@@ -41,7 +41,8 @@
 ## Apuntes
 
 [Aula 01](https://github.com/pfafner/pfafner.github.io/aulas/ad01.pdf)
-[Aula 02](https://github.com/pfafner/pfafner.github.io/aulas/ad02.pdf)
+
+[Aula 02](https://pfafner.github.io/aulas/ad02.pdf)
 
 ## Listas
 
