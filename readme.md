@@ -1,9 +1,7 @@
-# Pfafner
-# Course on Differential Geometry, 2021
+# Differential Geometry, 2021
 
 ## Welcome to my website!
-
-### This is website on construction. Right now, it is for example and testing purposes only.
+## This is website on construction. Right now, it is used for example and testing purposes only.
 
 [TOC]
 
