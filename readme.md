@@ -1,6 +1,6 @@
 # Cursos UVG 2021
 
-[Análisis de Datos](https://pfafner.github.io/ad2021/)
+[Ciencia de Datos](https://pfafner.github.io/cd2021/)
 
 [Geometría Diferencial](https://pfafner.github.io/gd2021/)
 
