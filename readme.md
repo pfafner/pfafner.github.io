@@ -7,9 +7,9 @@
 
 # Courses UVG 2021 - Fall
 
-[Criptografia y Cifrado de la Información](https://pfafner.github.io/cr2021/)
+[Criptografía y Cifrado de la Información](https://pfafner.github.io/cr2021/)
 
-[Optimización Numérica](https://pfafner.github.io/opt2021/)
+[Métodos Numéricos II](https://pfafner.github.io/opt2021/)
 
 [Teoría de Números](https://pfafner.github.io/tn2021/)
 
