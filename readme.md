@@ -14,4 +14,12 @@
 [Teoría de Números](https://pfafner.github.io/tn2021/)
 
 
----
+# Upcoming Courses 2022
+
+[Ciencia de Datos](https://pfafner.github.io/cd2022/)
+
+[Geometría Diferencial](https://pfafner.github.io/gd2022/)
+
+[Inteligencia Artificial](https://pfafner.github.io/ia2022/)
+
+[Teoría de la Medida e Integración](https://pfafner.github.io/tm2021/)
