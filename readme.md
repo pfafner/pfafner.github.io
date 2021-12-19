@@ -14,7 +14,7 @@
 [Teoría de Números](https://pfafner.github.io/tn2021/)
 
 
-# Upcoming Courses 2022
+# Courses UVG 2022 - Spring
 
 [Ciencia de Datos](https://pfafner.github.io/cd2022/)
 
