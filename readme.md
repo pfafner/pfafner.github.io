@@ -22,4 +22,4 @@
 
 [Inteligencia Artificial](https://pfafner.github.io/ia2022/)
 
-[Teoría de la Medida e Integración](https://pfafner.github.io/tm2021/)
+[Teoría de la Medida e Integración](https://pfafner.github.io/tm2022/)
