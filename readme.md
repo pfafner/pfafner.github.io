@@ -23,3 +23,12 @@
 [Inteligencia Artificial](https://pfafner.github.io/ia2022/)
 
 [Teoría de la Medida e Integración](https://pfafner.github.io/tm2022/)
+
+
+# Courses UVG 2022 - Fall
+
+[Métodos Numéricos II](https://pfafner.github.io/opt2022/)
+
+[Teoría de la Computación](https://pfafner.github.io/tc2022/)
+
+[Teoría de Números](https://pfafner.github.io/tn2022/)
