@@ -1,20 +1,27 @@
-# Courses UVG 2021 - Spring
+# Upcoming Courses
 
-[Ciencia de Datos](https://pfafner.github.io/cd2021/)
+[Geometría Diferencial]()
 
-[Geometría Diferencial](https://pfafner.github.io/gd2021/)
+[Teoría de la Medida]()
 
-
-# Courses UVG 2021 - Fall
-
-[Criptografía y Cifrado de la Información](https://pfafner.github.io/cr2021/)
-
-[Métodos Numéricos II](https://pfafner.github.io/opt2021/)
-
-[Teoría de Números](https://pfafner.github.io/tn2021/)
+[Elements of Machine Learning]()
 
 
-# Courses UVG 2022 - Spring
+---
+
+# Past Courses
+
+
+## Courses UVG 2022 - Fall
+
+[Métodos Numéricos II](https://pfafner.github.io/opt2022/)
+
+[Teoría de la Computación](https://pfafner.github.io/tc2022/)
+
+[Teoría de Números](https://pfafner.github.io/tn2022/)
+
+
+## Courses UVG 2022 - Spring
 
 [Ciencia de Datos](https://pfafner.github.io/cd2022/)
 
@@ -25,10 +32,17 @@
 [Teoría de la Medida e Integración](https://pfafner.github.io/tm2022/)
 
 
-# Courses UVG 2022 - Fall
+## Courses UVG 2021 - Fall
 
-[Métodos Numéricos II](https://pfafner.github.io/opt2022/)
+[Criptografía y Cifrado de la Información](https://pfafner.github.io/cr2021/)
 
-[Teoría de la Computación](https://pfafner.github.io/tc2022/)
+[Métodos Numéricos II](https://pfafner.github.io/opt2021/)
 
-[Teoría de Números](https://pfafner.github.io/tn2022/)
+[Teoría de Números](https://pfafner.github.io/tn2021/)
+
+
+## Courses UVG 2021 - Spring
+
+[Ciencia de Datos](https://pfafner.github.io/cd2021/)
+
+[Geometría Diferencial](https://pfafner.github.io/gd2021/)
