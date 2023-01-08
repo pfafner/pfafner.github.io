@@ -1,4 +1,9 @@
-# Upcoming Courses
+# Courses
+
+## Courses UVG 2023 -- Spring
+
+[Elements of Machine Learning]()
+
 
 ## Courses UVG 2023 -- Spring
 
@@ -6,7 +11,6 @@
 
 [Teoría de la Medida]()
 
-[Elements of Machine Learning]()
 
 
 ---
