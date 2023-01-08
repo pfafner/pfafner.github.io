@@ -1,6 +1,6 @@
 # Courses
 
-## Courses UVG 2023 -- Spring
+## Courses UFM 2023 -- Spring
 
 [Elements of Machine Learning]()
 
