@@ -2,14 +2,14 @@
 
 ## Courses UFM 2023 -- Spring
 
-[Elements of Machine Learning]()
+[Elements of Machine Learning](https://pfafner.github.io/ml2023/)
 
 
 ## Courses UVG 2023 -- Spring
 
-[Geometría Diferencial]()
+[Geometría Diferencial](https://pfafner.github.io/gd2023/)
 
-[Teoría de la Medida]()
+[Teoría de la Medida](https://pfafner.github.io/md2023/)
 
 
 
