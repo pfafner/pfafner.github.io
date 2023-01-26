@@ -9,7 +9,7 @@
 
 [Geometría Diferencial](https://pfafner.github.io/gd2023/)
 
-[Teoría de la Medida](https://pfafner.github.io/tm2023/)
+[Teoría de la Medida e Integración](https://pfafner.github.io/tm2023/)
 
 
 
