@@ -18,7 +18,7 @@
 # Past Courses
 
 
-## Courses UVG 2022 - Fall
+## Courses UVG 2022 -- Fall
 
 [Métodos Numéricos II](https://pfafner.github.io/opt2022/)
 
@@ -27,7 +27,7 @@
 [Teoría de Números](https://pfafner.github.io/tn2022/)
 
 
-## Courses UVG 2022 - Spring
+## Courses UVG 2022 -- Spring
 
 [Ciencia de Datos](https://pfafner.github.io/cd2022/)
 
@@ -38,7 +38,7 @@
 [Teoría de la Medida e Integración](https://pfafner.github.io/tm2022/)
 
 
-## Courses UVG 2021 - Fall
+## Courses UVG 2021 -- Fall
 
 [Criptografía y Cifrado de la Información](https://pfafner.github.io/cr2021/)
 
@@ -47,7 +47,7 @@
 [Teoría de Números](https://pfafner.github.io/tn2021/)
 
 
-## Courses UVG 2021 - Spring
+## Courses UVG 2021 -- Spring
 
 [Ciencia de Datos](https://pfafner.github.io/cd2021/)
 
