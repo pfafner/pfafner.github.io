@@ -1,0 +1,493 @@
+% A pure minimalistic LaTeX-Beamer theme for everyone to use.
+% Copyright (C) 2020 Kai Norman Clasen
+
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even    the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+	
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+% This file is part of beamerthemepureminimalistic.
+
+% If problems/bugs are found or enhancements are desired, please contact
+% me over: https://github.com/kai-tub/latex-beamer-pure-minimalistic
+
+\documentclass[11pt, aspectratio=169]{beamer}
+% should also look nice for the classic aspectratio
+% of course, than the text has to be refitted
+% \documentclass{beamer} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+%\usepackage[options]{algorithm2e}
+\usepackage[ruled,vlined]{algorithm2e}
+\usetheme[showmaxslides, darkmode, helvetia]{pureminimalistic}
+
+\usepackage[backend=biber, doi=false, maxbibnames=2, maxcitenames=2,%
+            style=numeric, sorting=none, url=false, eprint=false]{biblatex}
+\usepackage{hyperref}
+
+\addbibresource{demo_bib.bib}
+% this makes it possible to add backup slides, without counting them
+\usepackage{appendixnumberbeamer}
+\renewcommand{\appendixname}{\texorpdfstring{\translate{appendix}}{appendix}}
+
+% if loaded after begin{document} a warning will appear: "pdfauthor already used"
+\title[Medidas Positivas]{\Large{Medidas Positivas}}
+%\title[short title]{Intro}
+%\title[short title]{This is the normal length of a research paper: always longer than you would expect}
+\author{Alan Reyes-Figueroa \\}
+\institute{\textcolor{\gray}{Teoría de la Medida e Integración} \hfill (Aula 12) $\ $ 27.febrero.2023}
+%\date{\today}
+
+% ----- set colors -----
+
+\definecolor{textcolor}{RGB}{0, 0, 0}
+%\definecolor{title}{RGB}{128, 0, 0}
+\definecolor{title}{RGB}{14, 84, 48}
+\definecolor{footercolor}{RGB}{96, 96, 96}
+\definecolor{bg}{RGB}{255, 255, 255}
+
+\definecolor{bg2}{RGB}{64, 64, 64}
+\definecolor{text2}{RGB}{192, 192, 192}
+
+\renewcommand{\beamertextcolor}{textcolor}
+\renewcommand{\beamerbgcolor}{bg}
+\renewcommand{\beamerfootertextcolor}{footercolor}
+\renewcommand{\beamertitlecolor}{title}
+
+% ----- set logos -----
+ 
+\renewcommand{\logotitle}{\includegraphics%
+   [width=0.4\linewidth]{logos/Logo-horizontal-verde.png}}
+\renewcommand{\logoheader}{\includegraphics%
+   [width=0.5\linewidth]{}}
+\renewcommand{\logofooter}{\includegraphics%
+   [width=0.65\linewidth]{logos/Logo-horizontal-verde.png}}
+
+% ----- set environments -----
+
+\theoremstyle{plain}
+\newtheorem{thm}{Teorema}
+\newtheorem{pros}{Proposición}
+\newtheorem{lem}{Lema}
+\newtheorem{cor}{Corolario}
+\newtheorem{defn}{Definición}
+
+\newcommand{\mA}{\mathcal{A}}
+\newcommand{\mB}{\mathcal{B}}
+\newcommand{\mC}{\mathcal{C}}
+\newcommand{\mD}{\mathcal{D}}
+\newcommand{\mF}{\mathcal{F}}
+\newcommand{\mG}{\mathcal{G}}
+\newcommand{\mH}{\mathcal{H}}
+\newcommand{\mI}{\mathcal{I}}
+\newcommand{\mJ}{\mathcal{J}}
+\newcommand{\mK}{\mathcal{K}}
+\newcommand{\mM}{\mathcal{M}}
+\newcommand{\mO}{\mathcal{O}}
+\newcommand{\mP}{\mathcal{P}}
+\newcommand{\mS}{\mathcal{S}}
+\newcommand{\mT}{\mathcal{T}}
+
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\DD}{\mathbb{D}}
+\newcommand{\HH}{\mathbb{H}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\TT}{\mathbb{T}}
+\newcommand{\ZZ}{\mathbb{Z}}
+
+\newcommand{\aaa}{\mathbf{a}}
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\cc}{\mathbf{c}}
+\newcommand{\ee}{\mathbf{e}}
+\newcommand{\nn}{\mathbf{n}}
+\newcommand{\pp}{\mathbf{p}}
+\newcommand{\qq}{\mathbf{q}}
+\newcommand{\ttt}{\mathbf{t}}
+\newcommand{\uu}{\mathbf{u}}
+\newcommand{\vv}{\mathbf{v}}
+\newcommand{\ww}{\mathbf{w}}
+\newcommand{\xx}{\mathbf{x}}
+\newcommand{\yy}{\mathbf{y}}
+\newcommand{\zz}{\mathbf{z}}
+
+% derivadas
+\newcommand{\ddx}[1]{\frac{d}{d #1}}
+\newcommand{\dfdx}[2]{\frac{d #1}{d #2}}
+\newcommand{\ddyxx}[2]{\frac{d^2 #1}{d #2^2}}
+\newcommand{\ddydx}[3]{\frac{d^2 #1}{d #2 d #3}}
+\newcommand{\ttx}[1]{\tfrac{d}{d #1}}
+\newcommand{\tftx}[2]{\tfrac{d #1}{d #2}}
+
+\newcommand{\ppx}[1]{\frac{\partial}{\partial #1}}
+\newcommand{\pfpx}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\ppfxx}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\ppfpx}[3]{\frac{\partial^2 #1}{\partial #2 \partial #3}}
+\newcommand{\ssx}[1]{\tfrac{\partial}{\partial #1}}
+\newcommand{\sfsx}[2]{\tfrac{\partial #1}{\partial #2}}
+\newcommand{\ssfxx}[2]{\tfrac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\ssfpx}[3]{\tfrac{\partial^2 #1}{\partial #2 \partial #3}}
+
+\DeclareMathOperator{\argmin}{argmin}
+\DeclareMathOperator{\argmax}{argmax}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\dist}{dist}
+\DeclareMathOperator{\divv}{div}
+\DeclareMathOperator{\im}{Im}
+\DeclareMathOperator{\idx}{Index}
+\DeclareMathOperator{\intr}{int}
+\DeclareMathOperator{\Int}{Int}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\proj}{proj}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\re}{Re}
+\DeclareMathOperator{\tr}{tr}
+
+
+\makeatletter
+\newcommand\tint{\mathop{\mathpalette\tb@int{t}}\!\int}
+\newcommand\bint{\mathop{\mathpalette\tb@int{b}}\!\int}
+\newcommand\tb@int[2]{%
+  \sbox\z@{$\m@th#1\int$}%
+  \if#2t%
+    \rlap{\hbox to\wd\z@{%
+      \hfil
+      \vrule width .35em height \dimexpr\ht\z@+1.4pt\relax depth -\dimexpr\ht\z@+1pt\relax
+      \kern.05em % a small correction on the top
+    }}
+  \else
+    \rlap{\hbox to\wd\z@{%
+      \vrule width .35em height -\dimexpr\dp\z@+1pt\relax depth \dimexpr\dp\z@+1.4pt\relax
+      \hfil
+    }}
+  \fi
+}
+\makeatother
+
+\makeatletter
+\def\moverlay{\mathpalette\mov@rlay}
+\def\mov@rlay#1#2{\leavevmode\vtop{%
+   \baselineskip\z@skip \lineskiplimit-\maxdimen
+   \ialign{\hfil$\m@th#1##$\hfil\cr#2\crcr}}}
+\newcommand{\charfusion}[3][\mathord]{
+    #1{\ifx#1\mathop\vphantom{#2}\fi
+        \mathpalette\mov@rlay{#2\cr#3}
+      }
+    \ifx#1\mathop\expandafter\displaylimits\fi}
+\makeatother
+
+\newcommand{\cupdot}{\charfusion[\mathbin]{\cup}{\cdot}}
+\newcommand{\bigcupdot}{\charfusion[\mathop]{\bigcup}{\cdot}}
+
+
+\begin{document}
+% has to be loaded outside of a frame to work!
+\maketitle
+
+
+% ------------ table of contents ------------
+
+% For longer table of contents, I find it cleaner to
+% use no footline.
+
+%\begin{frame}[plain, noframenumbering]{Outline}
+%  \tableofcontents
+%\end{frame}
+
+
+% **********************************************
+% *             Medidas Positivas              *
+% **********************************************
+
+\section{Medidas}
+
+
+% ------------ Frame 01 ------------
+\begin{frame}{Medidas Positivas}
+
+\small
+Deseamos generalizar las propiedades que posee la medida de Lebesgue. \\ 
+\vspace{0.2cm} %\pause
+
+\begin{defn}
+Sea $X$ un conjunto no vacío, y $\mA$ una $\sigma$-álgebra en $X$. Una \textbf{medida (positiva)} en $X$ es una función $\mu: \mA \to [0, \infty)$ que satisface:
+\begin{itemize}
+	\small
+	\item[i)]  $\mu(\varnothing) = 0$,
+	\item[ii)] Para cualquier colección enumerable $\{A_k\}_{k\geq 1} \subseteq \mM$, de conjuntos disjuntos a pares ($A_i \cap A_j = \varnothing$, para $i \neq j$), vale
+    $$ \mu \Big( \bigcup_{k \geq 1} A_k \Big) = \sum_{k\geq 1} \mu(A_k). \qquad \textmd{(} \sigma \textmd{-aditividad)} $$
+\end{itemize}
+\end{defn}
+\vspace{-0.2cm} %\pause
+
+\textbf{Obs!}
+Cuando valen las condiciones (i) y (ii) anteriores, pero $\mA$ no es una $\sigma$-álgebra, decimos que $\mu$ es una \textbf{pre-medida}.
+\end{frame}
+
+
+% ------------ Frame 02 ------------
+\begin{frame}{Medidas Positivas}
+
+\small
+\textbf{Obs!}
+Siempre se requiere verificar que $\bigcup_k A_k \in \mA$. %\pause
+Cuando $\mA$ es una $\sigma$-álgebra, y los $A_k \in \mA$ esto no es necesario, %\pause
+pero en el caso de pre-medidas, se requiere más cuidado: \\ %\pause
+\color{red}
+\textbf{Antes de calcular $\mu(B)$, se debe verificar que $B \in \mA$.} \\
+\bigskip %\pause
+
+\color{black}
+\begin{defn}
+Sea $\mA$ una $\sigma$-álgebra en $X$. El par $(X, \mA)$ se llama un \textbf{espacio mesurable}. Cuando fijamos una medida $\mu: \mA \to \RR$, llamamos a la estructura $(X, \mA, \mu)$ un \textbf{espacio de medida}.
+\end{defn}
+\vspace{0.2cm} %\pause
+
+\begin{defn}
+Una \textbf{medida finita} (o \textbf{medida compacta}) es aquella donde $\mu(X) < \infty$. \\ 
+\vspace{0.1cm} %\pause
+
+Una \textbf{medida de probabilidad} es aquella donde $\mu(X) = 1$. En este caso, denotamos usualmente $\mu = \PP$, y al espacio $(X, \mA, \PP)$ le llamamos un \textbf{espacio de probabilidad}. \\
+\vspace{0.1cm} %\pause
+
+Una medida $\mu: \mA \to \RR$ es \textbf{$\sigma$-finita} si $\mA$ contiene alguna secuencia $\{A_k\}_{k\geq 1}$ tal que $A_k \nearrow X$ y $\mu(A_k) < \infty$ para todo $k \geq 1$.
+\end{defn}
+\end{frame}
+
+
+% ------------ Frame 03 ------------
+\begin{frame}{Medidas Positivas}
+
+\small
+\begin{thm}[Propiedades de medidas positivas]
+Sea $(X, \mA, \mu)$ un espacio de medida, y sean $A, B, A_k, B_k \in \mA$, para todo $k \geq 1$. Entonces:
+\begin{itemize}
+    \small
+    \item[1)] (aditividad) %\pause
+    $A \cap B = \varnothing \ \Longrightarrow \ \mu(A \cup B) = \mu(A) + \mu(B)$. %\pause
+    \item[2)] (monotonía) %\pause
+    $A \subseteq B \ \Longrightarrow \ \mu(A) \leq \mu(B)$. %\pause
+    \item[3)] (diferencia) %\pause
+    $A \subseteq B$ y $\mu(B) < \infty \ \Longrightarrow \ \mu(B - A) = \mu(B) - \mu(A)$. %\pause
+    \item[4)] (inclusión-exclusión) %\pause
+    $\mu(A \cup B) = \mu(A) + \mu(B) - \mu (A \cap B)$. %\pause
+    \item[5)] (sub-aditividad) %\pause
+    Para todo $n \in \NN$, $\displaystyle \mu \Big( \bigcup_{k = 1}^n A_k \Big) \leq \sum_{k = 1}^n \mu(A_k)$. %\pause
+    \item[6)] (continuidad inferior) %\pause
+    $A_k \nearrow A \ \Longrightarrow \ \mu(A) = \lim_k \mu(A_k) = \sup_k \mu(A_k)$. %\pause
+    \item[7)] (continuidad superior) %\pause
+    $B_k \searrow B$ y $\mu(B) < \infty \ \Longrightarrow \ \mu(B) = \lim_k \mu(B_k) = \inf_k \mu(B_k)$. %\pause
+    \item[8)] ($\sigma$-sub-aditividad) %\pause
+    $\displaystyle \mu \Big( \bigcup_{k\geq 1} A_k \Big) \leq \sum_{k \geq 1} \mu(A_k)$.
+\end{itemize}
+\end{thm}
+
+\end{frame}
+
+
+% ------------ Frame 04 ------------
+\begin{frame}{Medidas Positivas}
+
+\small
+\textbf{Prueba:} %\pause
+(1) (aditividad) $A \cap B = \varnothing \ \Longrightarrow \ \mu(A \cup B) = \mu(A) + \mu(B)$. \\
+\vspace{0.2cm} %\pause
+
+Hacemos $A_1 = A$, $A_2 = B$ y $A_k = \varnothing$, para $k \geq 3$. %\pause
+Entonces $\{A_k\}_k$ es una secuencia de conjuntos disjuntos a pares, cuya unión es $A \cup B$. %\pause
+Del axioma (ii), entonces
+$$ \mu(A \cup B) = \mu \Big( \bigcup_{k \geq 1} A_k \Big) = \sum_{k \geq 1} \mu(A_k) %\pause
+= \mu(A) + \mu(B). $$
+%\pause
+
+(2) (monotonía) $A \subseteq B \ \Longrightarrow \ \mu(A) \leq \mu(B)$. \\
+\vspace{0.2cm} %\pause
+
+Como $A \subseteq B$, entonces $B = A \cup (B-A)$ es una unión disjunta. %\pause
+Por la propiedad (1), y como $\mu$ es una medida positiva, tenemos
+$$ \mu(B) = \mu(A) + \underbrace{\mu(B-A)}_{\geq 0} %\pause
+\geq \mu(A). $$
+
+
+(3) (diferencia) $A \subseteq B$ y $\mu(B) < \infty \ \Longrightarrow \ \mu(B - A) = \mu(B) - \mu(A)$. \\
+\end{frame}
+
+
+% ------------ Frame 05 ------------
+\begin{frame}{Medidas Positivas}
+
+\small
+Como $A \subseteq B$ y $\mu(B) < \infty$, %\pause
+de la propiedad de monotonìa (2), obtenemos que $\mu(A) < \infty$. %\pause
+Restando $\mu(A)$ en ambos lados de la ecuación $\mu(B) = \mu(A) + \mu(B-A)$, %\pause
+tenemos
+$$ \mu(B) - \mu(A) = \mu(B-A). $$
+%\pause
+
+(4)] (inclusión-exclusión) $\mu(A \cup B) = \mu(A) + \mu(B) - \mu (A \cap B)$. \\
+\vspace{0.2cm} %\pause
+
+Para cualesquiera $A, B \in \mA$, podemos escribir la unión $A \cup B$ como unión disjunta de tres conjuntos en $\mA$:
+$$ A \cup B = \big[A - (A \cap B) \big] \cup \big[B - (A \cap B) \big] \cup \big[A \cap B\big]. $$
+%\pause
+
+De nuevo, la propiedad (1) garantiza que
+\begin{eqnarray*}
+    \mu(A \cup B) &=& \mu \big(A - (A \cap B) \big) + \mu \big(B - (A \cap B) \big) + \mu \big(A \cap B\big) \\ %\pause
+    &=& (\mu(A) - \mu(A \cap B)) +  (\mu(B) - \mu(A \cap B)) + \mu(A \cap B) \\ %\pause
+    &=& \mu(A) + \mu(B) - \mu(A \cap B).
+\end{eqnarray*}
+\end{frame}
+
+
+% ------------ Frame 06 ------------
+\begin{frame}{Medidas Positivas}
+
+\small
+(5) (sub-aditividad) Para todo $n \in \NN$, $\displaystyle \mu \Big( \bigcup_{k = 1}^n A_k \Big) \leq \sum_{k = 1}^n \mu(A_k)$. \\
+\vspace{0.2cm} %\pause
+
+Probamos por inducción sobre $n$. %\pause 
+Usando el principio de inclusión-exclusión (4):
+$$ \mu(A_1 \cup A_2) = \mu(A_1) + \mu(A_2) - \underbrace{\mu(A_1 \cap A_2)}_{\geq 0} \leq \mu(A_1) + \mu(A_2). $$
+%\pause
+
+Asumiendo que $\displaystyle \mu(A_1 \cup \ldots \cup A_n) \leq \sum_{k=1}^n \mu(A_k)$, %\pause
+de nuevo el principio de inclusión-exclusión %\pause
+\begin{eqnarray*}
+    \mu(A_1 \cup A_2 \cup \ldots \cup A_{n+1}) &=& \mu \Big( \bigcup_{k=1}^n A_k \Big) + \mu(A_{n+1}) - \mu \Big( \bigcup_{k=1}^n A_k  \cap A_{n+1} \Big) \\ %\pause
+     &\leq & \mu \Big( \bigcup_{k=1}^n A_k \Big) + \mu(A_{n+1}) %\pause
+    \ \leq \ \sum_{k=1}^n \mu(A_k) + \mu(A_{n+1}) %\pause
+    \ = \ \sum_{k=1}^{n+1} \mu(A_k).
+\end{eqnarray*}
+\end{frame}
+
+
+% ------------ Frame 07 ------------
+\begin{frame}{Medidas Positivas}
+
+\small
+(6) (continuidad inferior) $A_k \nearrow A \ \Longrightarrow \ \mu(A) = \lim_k \mu(A_k) = \sup_k \mu(A_k)$. \\
+\vspace{0.2cm} %\pause
+
+Sea $A = \bigcup_{k\geq 1} A_k$. %\pause 
+Consideremos los conjuntos, definidos por
+\vspace{-0.4cm}
+$$ B_1 = A_1, \ \ B_2 = A_2 - A_1, \ \ B_3 = A_3 - (A_1 \cup A_2), \ \ \ldots \ \ B_k = A_k - \bigcup_{i=1}^{k-1} A_i, \ \forall k \geq 2. $$
+\vspace{-0.2cm} %\pause
+
+Observe que todos los $B_k \in \mA$. %\pause
+Además, por inducción es simple verificar que $\displaystyle \bigcup_{k=1}^n B_k = A_n$, $\forall n \in \NN$, %\pause
+de modo que $\displaystyle \bigcupdot_{k \geq 1} B_k = \bigcup_{k \geq 1} A_k = A$. \\
+\vspace{0.1cm} %\pause
+
+Por $\sigma$-aditividad, tenemos
+\vspace{-0.1cm}
+\begin{eqnarray*}
+    \mu(A) &=& \sum_{k\geq 1} \mu(B_k) %\pause
+    \ = \lim_{n \to \infty} \sum_{k=1}^n \mu(B_k) %\pause
+    \ = \lim_{n \to \infty} \mu \Big( \bigcup_{k=1}^n B_k \Big) %\pause
+    = \lim_{n \to \infty} \mu(A_n).
+\end{eqnarray*}
+\end{frame}
+
+
+% ------------ Frame 08 ------------
+\begin{frame}{Medidas Positivas}
+
+\small
+(7) (continuidad superior) $B_k \searrow B$ y $\mu(B) < \infty \ \Longrightarrow \ \mu(B) = \lim_k \mu(B_k) = \inf_k \mu(B_k)$. \\
+\vspace{0.2cm} %\pause
+
+Como $B_k \searrow B$, entonces $B_k \subseteq B_1$, para todo $k \geq 1$. \\
+\vspace{0.2cm} %\pause
+
+En particular, de la propiedad de monotonía (2), $\mu(B_1) < \infty$ implica que $\mu(B_1 - B_k) < \infty$, para todo $k \geq 1$. \\ 
+\vspace{0.2cm} %\pause
+
+Además,
+\vspace{-0.1cm}
+$$ B_k \searrow B \ \Rightarrow \ B_1 - B_k \nearrow B_1 - B, $$
+%\pause
+y este último límite también tiene medida $\mu(B_1 - B) < \infty$. \\
+\vspace{0.2cm} %\pause
+
+Por (6) y la propiedad de diferencias (3), tenemos que
+$$ \mu(B_1) - \lim_k \mu(B_k) = \lim_k \big( \mu(B_1) - \mu(B_k) \big) = \lim_k \mu(B_1 - B_k) = \mu(B_1 - B) = \mu(B_1) - \mu(B). $$
+%\pause
+Esto muestra que $\lim\limits_k \mu(B_k) = \mu(B)$. \\
+\vspace{0.1cm} %\pause
+
+\end{frame}
+
+
+% ------------ Frame 09 ------------
+\begin{frame}{Medidas Positivas}
+
+\small
+(8) ($\sigma$-sub-aditividad) $\displaystyle \mu \Big( \bigcup_{k\geq 1} A_k \Big) \leq \sum_{k \geq 1} \mu(A_k)$. \\
+\vspace{0.2cm} %\pause
+
+De la sub-aditividad (5), tenemos $\displaystyle \mu \Big( \bigcup_{k=1}^n A_k \Big) \leq \sum_{k=1}^n \mu(A_k)$. %\pause
+Luego,
+$$ \mu \Big( \bigcup_{k=1}^\infty A_k \Big) = \mu \Big( \lim_n \bigcup_{k=1}^n A_k \Big) = \lim_n \mu \Big( \bigcup_{k=1}^n A_k \Big) \leq \lim_n \sum_{k=1}^n \mu(A_k) \leq \sum_{k=1}^\infty \mu(A_k). \ \boxed{} $$
+\vspace{2cm} 
+\end{frame}
+
+
+% **********************************************
+% *                  Ejemplos                  *
+% **********************************************
+
+\section{Ejemplos}
+
+% ------------ Frame 10 ------------
+\begin{frame}{Ejemplos}
+
+\small
+\end{frame}
+
+% ------------ Frame 11 ------------
+\begin{frame}{Ejemplos}
+
+\small
+\end{frame}
+
+% ------------ Frame 12 ------------
+\begin{frame}{Ejemplos}
+
+\small
+\end{frame}
+
+% ------------ Frame 13 ------------
+\begin{frame}{Ejemplos}
+
+\small
+\end{frame}
+
+% ------------ Frame 14 ------------
+\begin{frame}{Ejemplos}
+
+\small
+\end{frame}
+
+% ------------ Frame 15 ------------
+\begin{frame}{Ejemplos}
+
+\small
+\end{frame}
+
+
+\end{document}
