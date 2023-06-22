@@ -2,11 +2,11 @@
 
 ## Courses UVG 2023 -- Fall
 
-[Métodos Numéricos II]()
+[Métodos Numéricos II](https://pfafner.github.io/opt2023/)
 
-[Teoría de la Computación]()
+[Teoría de la Computación](https://pfafner.github.io/tc2023/)
 
-[Teoría de Números]()
+[Teoría de Números](https://pfafner.github.io/tn2023/)
 
 
 
