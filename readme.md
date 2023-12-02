@@ -1,5 +1,24 @@
 # Upcoming Courses
 
+## Courses UFM 2024 -- Spring
+
+[Elements of Machine Learning](https://pfafner.github.io/ml2024/)
+
+
+## Courses UVG 2024 -- Spring
+
+[Aprendizaje Estadístico](https://pfafner.github.io/sl2024/)
+
+[Geometría Diferencial](https://pfafner.github.io/gd2024/)
+
+[Inteligencia Artificial](https://pfafner.github.io/ia2024/)
+
+[Visión por Computadora](https://pfafner.github.io/cv2024/)
+
+
+
+# Past Courses
+
 ## Courses UVG 2023 -- Fall
 
 [Métodos Numéricos II](https://pfafner.github.io/opt2023/)
@@ -8,9 +27,6 @@
 
 [Teoría de Números](https://pfafner.github.io/tn2023/)
 
-
-
-# Past Courses
 
 ## Courses UFM 2023 -- Spring
 
@@ -22,12 +38,6 @@
 [Geometría Diferencial](https://pfafner.github.io/gd2023/)
 
 [Teoría de la Medida e Integración](https://pfafner.github.io/tm2023/)
-
-
-
----
-
-# Past Courses
 
 
 ## Courses UVG 2022 -- Fall
