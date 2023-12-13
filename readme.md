@@ -20,7 +20,7 @@
 
 # Past Courses
 
-## Courses UVG 2023 -- Fall
+## UVG 2023 -- Fall
 
 [Métodos Numéricos II](https://pfafner.github.io/opt2023/)
 
