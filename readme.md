@@ -34,7 +34,7 @@
 [Elements of Machine Learning](https://pfafner.github.io/ml2023/)
 
 
-## Courses UVG 2023 -- Spring
+## UVG 2023 -- Spring
 
 [Geometría Diferencial](https://pfafner.github.io/gd2023/)
 
