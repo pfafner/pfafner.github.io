@@ -29,7 +29,7 @@
 [Teoría de Números](https://pfafner.github.io/tn2023/)
 
 
-## Courses UFM 2023 -- Spring
+## UFM 2023 -- Spring
 
 [Elements of Machine Learning](https://pfafner.github.io/ml2023/)
 
