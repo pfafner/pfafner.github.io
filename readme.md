@@ -44,7 +44,7 @@
 [Teoría de la Medida e Integración](https://pfafner.github.io/tm2023/)
 
 
-## Courses UVG 2022 -- Fall
+## UVG 2022 -- Fall
 
 [Métodos Numéricos II](https://pfafner.github.io/opt2022/)
 
