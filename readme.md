@@ -53,7 +53,7 @@
 [Teoría de Números](https://pfafner.github.io/tn2022/)
 
 
-## Courses UVG 2022 -- Spring
+## UVG 2022 -- Spring
 
 [Ciencia de Datos](https://pfafner.github.io/cd2022/)
 
