@@ -73,7 +73,7 @@
 [Teoría de Números](https://pfafner.github.io/tn2021/)
 
 
-## Courses UVG 2021 -- Spring
+## UVG 2021 -- Spring
 
 [Ciencia de Datos](https://pfafner.github.io/cd2021/)
 
