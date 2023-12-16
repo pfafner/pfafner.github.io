@@ -64,7 +64,7 @@
 [Teoría de la Medida e Integración](https://pfafner.github.io/tm2022/)
 
 
-## Courses UVG 2021 -- Fall
+## UVG 2021 -- Fall
 
 [Criptografía y Cifrado de la Información](https://pfafner.github.io/cr2021/)
 
