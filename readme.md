@@ -5,7 +5,7 @@
 [Elements of Machine Learning](https://pfafner.github.io/ml2024/)
 
 
-## Courses UVG 2024 -- Spring
+## UVG 2024 -- Spring
 
 [Aprendizaje Estadístico](https://pfafner.github.io/sl2024/)
 
