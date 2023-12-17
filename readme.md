@@ -1,6 +1,6 @@
 # Upcoming Courses
 
-## Courses UFM 2024 -- Spring
+## UFM 2024 -- Spring
 
 [Elements of Machine Learning](https://pfafner.github.io/ml2024/)
 
