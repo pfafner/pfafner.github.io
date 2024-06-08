@@ -1,5 +1,23 @@
 # Upcoming Courses
 
+## UVG 2024 -- Fall
+
+[Métodos Numéricos II](https://pfafner.github.io/opt2024/)
+
+[Modelación y Simulación](https://pfafner.github.io/sim2024/)
+
+[Teoría de la Computación](https://pfafner.github.io/tc2024/)
+
+[Teoría de Números](https://pfafner.github.io/tn2024/)
+
+
+--- 
+
+---
+
+
+# Past Courses
+
 ## UFM 2024 -- Spring
 
 [Elements of Machine Learning](https://pfafner.github.io/ml2024/)
@@ -15,13 +33,6 @@
 
 [Visión por Computadora](https://pfafner.github.io/cv2024/)
 
-
---- 
-
----
-
-
-# Past Courses
 
 ## UVG 2023 -- Fall
 
