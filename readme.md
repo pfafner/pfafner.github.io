@@ -1,4 +1,4 @@
-# Upcoming Courses
+# Current Courses
 
 ## UFM 2025 -- Spring
 
