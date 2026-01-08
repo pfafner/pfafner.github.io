@@ -1,4 +1,34 @@
+
 # Current Courses
+
+## UVG 2026 -- Spring
+
+[Aprendizaje Estadístico](https://pfafner.github.io/sl2026/)
+
+[Geometría Diferencial](https://pfafner.github.io/gd2026/)
+
+[Inteligencia Artificial](https://pfafner.github.io/ia2026/)
+
+
+--- 
+
+---
+
+
+# Upcoming Courses
+
+## UVG 2026 -- Spring
+
+[Matemática Actuarial 1](https://pfafner.github.io/am1-2026/)
+
+
+--- 
+
+---
+
+
+# Past Courses
+
 
 ## UVG 2025 -- Fall
 
@@ -10,14 +40,6 @@
 
 [Teoría de Números](https://pfafner.github.io/tn2025/)
 
-
-
---- 
-
----
-
-
-# Past Courses
 
 ## UFM 2025 -- Spring
 
